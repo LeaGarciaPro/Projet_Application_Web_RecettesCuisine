@@ -1,0 +1,50 @@
+<!-- La nav-bar de l'application -->
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a href="https://angular.io/docs"><img class="ms-2" src="assets/pancakes.png" /></a>
+        <div class="collapse navbar-collapse">
+
+            <ul class="navbar-nav m-2">
+                <li class="nav-item">
+                    <a class="nav-link text-light" routerLink="/accueil" routerLinkActive="active">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" routerLink="/rechercher" routerLinkActive="active">Rechercher</a>
+                </li>
+
+                <li *ngIf="isConnected() === true" class="nav-item disabled">
+                    <a class="nav-link text-light" routerLink="/favoris" routerLinkActive="active">
+                        <img src="assets/heart.svg" height="20px" width="20px" />
+                    </a>
+                </li>
+                <li *ngIf="isConnected() === false" class="nav-item disabled">
+                    <a class="nav-link text-light" routerLink="/inscription" routerLinkActive="active">
+                        <img src="assets/heart.svg" height="20px" width="20px" />
+                    </a>
+                </li>
+
+                <li class="nav-item disabled">
+                    <a class="nav-link text-light" routerLink="/t'esuredetoila" routerLinkActive="active">
+                        <img src="assets/sms.svg" height="20px" width="20px" />
+                    </a>
+                </li>
+            </ul>
+
+            <ul *ngIf="isConnected() === false" class="navbar-nav ms-auto m-2">
+                <li class="nav-item">
+                    <a routerLink="/connexion" routerLinkActive="active"><button type="button"
+                            class="btn btn-outline-light">Connexion</button></a>
+                </li>
+                <li class="nav-item ms-2">
+                    <a routerLink="/inscription" routerLinkActive="active"><button type="button"
+                            class="btn btn-light">Inscription</button></a>
+                </li>
+            </ul>
+            <ul *ngIf="isConnected() === true" class="navbar-nav ms-auto m-2">
+                <li class="nav-item ms-2">
+                    <button type="button" class="btn btn-outline-light" (click)="deconnexion()">Déconnexion</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>

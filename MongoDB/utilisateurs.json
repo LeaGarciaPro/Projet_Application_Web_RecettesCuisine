@@ -1,0 +1,44 @@
+[
+    {
+        "pseudo": "raven2203",
+        "nom": "Garcia",
+        "prenom": "Léa",
+        "email": "lea.garcia06@etu.umontpellier.fr",
+        "password": "pascal"
+    },
+    {
+        "pseudo": "test",
+        "nom": "test",
+        "prenom": "test",
+        "email": "test",
+        "password": "test"
+    },
+    {
+        "pseudo": "martin1166",
+        "nom": "Sanchez",
+        "prenom": "Martin",
+        "email": "martin.sanchez@etu.umontpellier.fr",
+        "password": "laperdrix"
+    },
+    {
+        "pseudo": "pickfire34",
+        "nom": "Romero",
+        "prenom": "Gaetan",
+        "email": "gaetan.romero@etu.umontpellier.fr",
+        "password": "pignancapue"
+    },
+    {
+        "pseudo": "matthieu",
+        "nom": "Trinquart",
+        "prenom": "Matthieu",
+        "email": "matthieu.trinquart@etu.umontpellier.fr",
+        "password": "sabrine"
+    },
+    {
+        "pseudo": "malou",
+        "nom": "Desbos",
+        "prenom": "Marie-Lou",
+        "email": "marie-lou.desbos@etu.umontpellier.fr",
+        "password": "laplusbelledelaterreentiere"
+    }
+]

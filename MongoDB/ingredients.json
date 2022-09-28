@@ -1,0 +1,32 @@
+[
+    {
+        "nom": "Oeuf(s)",
+        "prix": 0.30,
+        "unite": "pièce"
+    },
+    {
+        "nom": "Lait",
+        "prix": 1,
+        "unite": "L"
+    },
+    {
+        "nom": "Sucre",
+        "prix": 3,
+        "unite": "Kg"
+    },
+    {
+        "nom": "Levure",
+        "prix": 0.08,
+        "unite": "pièce"
+    },
+    {
+        "nom": "Eau",
+        "prix": 0.1,
+        "unite": "L"
+    },
+    {
+        "nom": "Farine",
+        "prix": 1,
+        "unite": "kg"
+    }
+]

@@ -1,0 +1,30 @@
+<div class="my-3 text-center">
+    <h4>Voici la liste des recettes que vous avez ajoutées en favoris</h4>
+</div>
+
+<div *ngIf="listeRecette.length === 0">
+    <div class="row" id="espace">
+    </div>
+</div>
+
+<!--
+<div class="row">
+    <div class="col-3" *ngFor="let recette of listeRecette">
+        <div class="card border-dark m-3" style="max-width: 18rem;">
+            <div class="card-header bg-dark text-light border-dark">{{recette['type']}}</div>
+            <div class="card-body text-dark bg-transparent">
+                <h3 class="card-title">{{recette['nom']}}</h3>
+                <br />
+                <p class="card-text">Difficulté : {{recette['difficulte']}}</p>
+                <p class="card-text">Temps de préparation : {{recette['temps']}}</p>
+                <p class="card-text">Prix : {{recette['prix']}}€</p>
+                <p class="card-text">Nombre de personnes : {{recette['nbPersonnes']}}</p>
+            </div>
+            <div class="card-footer bg-transparent border-dark">
+                <a [routerLink]="['/details', recette['nom']]" routerLinkActive="active"><button type="button"
+                        class="btn btn-outline-dark bg-dark text-light">Découvrir</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+-->

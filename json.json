@@ -1,0 +1,9 @@
+{"_id":{"$oid":"62666481a53734b61cbaee18"},"pseudo":"raven2203","nom":"Garcia","prenom":"Léa","email":"lea.garcia06@etu.umontpellier.fr","password":"pascal"}
+{"_id":{"$oid":"62666481a53734b61cbaee19"},"pseudo":"martin1166","nom":"Sanchez","prenom":"Martin","email":"martin.sanchez@etu.umontpellier.fr","password":"laperdrix"}
+{"_id":{"$oid":"62666481a53734b61cbaee1a"},"pseudo":"test","nom":"test","prenom":"test","email":"test","password":"test"}
+{"_id":{"$oid":"62666481a53734b61cbaee1b"},"pseudo":"pickfire34","nom":"Romero","prenom":"Gaetan","email":"gaetan.romero@etu.umontpellier.fr","password":"pignancapue"}
+{"_id":{"$oid":"62666481a53734b61cbaee1c"},"pseudo":"malou","nom":"Desbos","prenom":"Marie-Lou","email":"marie-lou.desbos@etu.umontpellier.fr","password":"laplusbelledelaterreentiere"}
+{"_id":{"$oid":"62666481a53734b61cbaee1d"},"pseudo":"matthieu","nom":"Trinquart","prenom":"Matthieu","email":"matthieu.trinquart@etu.umontpellier.fr","password":"sabrine"}
+{"_id":{"$oid":"6267e233503e734d60913696"},"pseudo":"az","nom":"az","prenom":"az","email":"az","mdp":"az"}
+{"_id":{"$oid":"6267e28cc33e905968945fb3"},"pseudo":"ee","nom":"ee","prenom":"ee","email":"ee","password":"ee"}
+{"_id":{"$oid":"6267e520c33e905968945fb4"},"pseudo":"zz","nom":"zz","prenom":"zz","email":"zz","password":"zz"}
